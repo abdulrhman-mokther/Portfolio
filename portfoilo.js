@@ -1,7 +1,7 @@
-  const card = document.getElementById('person');
-  const imageContainer = document.getElementById('imageContainer');
-  const showImageBtn = document.getElementById('showImageBtn');
-  const showCardBtn = document.getElementById('showCardBtn');
+  let card = document.getElementById('person');
+  let imageContainer = document.getElementById('imageContainer');
+  let showImageBtn = document.getElementById('showImageBtn');
+  let showCardBtn = document.getElementById('showCardBtn');
 
   // إظهار الصورة وإخفاء الكرت
   showImageBtn.addEventListener('click', () => {
@@ -14,3 +14,33 @@
     imageContainer.style.display = 'none';
     card.style.display = 'block';
   });
+
+
+
+
+
+   function showImage() {
+        document.getElementById("football").style.display = "none";
+        document.getElementById("image").style.display = "block";
+    }
+
+    function showCard() {
+        document.getElementById("football").style.display = "block";
+        document.getElementById("image").style.display = "none";
+    }
+
+
+
+
+
+
+
+      function showmage() {
+    document.getElementById("succse").style.display = "none";
+    document.getElementById("imagContainer").style.display = "block";
+  }
+
+  function showard() {
+    document.getElementById("imagContainer").style.display = "none";
+    document.getElementById("succse").style.display = "block";
+  }

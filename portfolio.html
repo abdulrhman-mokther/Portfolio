@@ -16,10 +16,10 @@
     <h1 class="logo">Abdulhman Mokther</h1>
     <nav class="navigation">
 
-
+<a href="#home"><span></span>home</a>
 <a href="#services"><span></span> Services</a>
 <a href="#project"><span></span>Project</a>
-<a href="#contact"><span></span>Contact</a>
+<a href="#Contact"><span></span>Contact</a>
 <span></span>
 
     </nav>
@@ -27,7 +27,7 @@
     <!-- end nav -->
 
 <!-- start section -->
-<section class="main">
+<section class="main " id="home">
 <div>
 
     <h2> Abdulrahman Mokhter <br><span> front-end developer</span></h2>
@@ -37,10 +37,11 @@
 
 <div class="icons">
 
-    <a href="#" ><i class="fa-brands fa-square-facebook fa-bounce" ></i></a>
-    <a href="#"><i class="fa-brands fa-square-github fa-bounce" ></i></a>
-    <a href="#"><i class="fa-brands fa-instagram fa-bounce" ></i></a>
-    <a href="#"><i class="fa-brands fa-linkedin fa-bounce" ></i></a>
+    <a href="#" ><i class="fa-brands fa-square-facebook fa-beat-fade " style="color:white ;" ></i></a>
+    <a href="#"><i class="fa-brands fa-square-github fa-bounce"  style="color:black ;"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram fa-spin-pulse"  style="color:rgb(240, 10, 105) ;"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin fa-flip"  style="color:rgb(5, 104, 203) ;"></i></a>
+    
 
 </div>
 <img class="abdo" src="WhatsApp Image 2025-05-21 at 17.15.38_eb9d33d1.jpg" alt="">
@@ -51,7 +52,7 @@
 
 
      <!-- start section2 -->
-   <section class="cards" id="services">
+   <section class="cards" id="services" style="border-radius: 20px; margin-top: 100px;">
 
 
 
@@ -68,7 +69,7 @@
       to gain extensive experience in the field, and to help many people.
     </p>
     <button id="showImageBtn">
-      <i class="fa-solid fa-computer-mouse fa-beat-fade" style="color: #36eac0;" id="pro"></i>
+      <i class="fa-solid fa-computer-mouse fa-beat-fade" style="color: #130cee;;" id="pro"></i>
     </button>
   </div>
 </div>
@@ -83,33 +84,31 @@
      
 
      
-<div class="card" id="person" >
+<div class="card" id="football" >
     <div class="icon"> 
-       <i class="fa-solid fa-video fa-fade"></i>
+       <i class="fa-solid fa-futbol fa-fade" style="color: #1f32c1;"></i>
          </div>
          <div class="info">
-            <h3>A video about my favorite hobby</h3>
+            <h3> image about my favorite hobby</h3>
             <p>Football is my favorite hobby. I love playing football 
                 every holiday, and I go to practice goalkeeping
             </p>
-             <button id="showImageBtn"><i class="fa-solid fa-computer-mouse fa-beat-fade" style="color: #36eac0;" id="pro"></i></button>
+             <button onclick="showImage()" ><i class="fa-solid fa-computer-mouse fa-beat-fade" style="color: #130cee;" id="pro"></i></button>
          </div>
 
 </div>
-
-<div class="image-container" id="imageContainer">
-  <img src="images (1).jpeg" alt="Placeholder Image" />
-  <br>
-  <button id="showCardBtn">
-    <i class="fa-solid fa-arrow-left"></i> Back to Card
-  </button>
+<div id="image">
+    <img src="٢٠٢٤٠٦١٤_١٠١٣٥٦.jpg" alt="صورة متعلقة بكرة القدم">
+    <br>
+    <button onclick="showCard()"><i class="fa-solid fa-arrow-left"></i>  Back to Card</button>
 </div>
 
 
 
 
 
-<div class="card" id="person">
+
+<div class="card" id="succse">
     <div class="icon"> 
         <i class="fa-solid fa-graduation-cap fa-bounce"></i>
          </div>
@@ -120,12 +119,17 @@
                  I began learning and working hard to improve myself
                 I studied programming at Creativeo Compane
             </p>
-            <button id="showImageBtn"><i class="fa-solid fa-computer-mouse fa-beat-fade" style="color: #36eac0;" id="pro"></i></button>
+            <button  onclick="showmage()" ><i class="fa-solid fa-computer-mouse fa-beat-fade" style="color: #130cee;;" id="pro"></i></button>
          </div>
 
 </div>
 
-
+<div id="imagContainer">
+  <img src="WhatsApp Image 2025-05-23 at 16.26.32_e6dd6694.jpg" alt="My Certificate">
+  <br>
+  <!-- زر الرجوع للكرت -->
+  <button onclick="showard()"><i class="fa-solid fa-arrow-left"></i>  Back to Card</button>
+</div>
 
 
 </div>
@@ -136,19 +140,123 @@
 
 <!-- start section3 -->
 
-<section class="Project" id="project">
+<section class="Project" id="project" >
+  <h2 class="title">project</h2>
+<div class="ion" >
 
-<h2 class="title">project</h2>
+<div class="video-card"  >
+  <!-- الفيديو -->
+  <video controls poster="WhatsApp Image 2025-05-25 at 01.11.24_16ca6e11.jpg">
+    <source src="WhatsApp Video 2025-05-25 at 01.08.51_030f298b.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- المحتوى -->
+  <div class="content">
+    <!-- وصف مختصر -->
+    <h3>Product Management Project</h3>
+
+    <!-- برجراف عن الفيديو -->
+    <p  >
+      This project is designed for product management on a website 
+     
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="video-card"  >
+  <!-- الفيديو -->
+  <video controls poster="WhatsApp Image 2025-05-25 at 16.36.20_3cd64685.jpg">
+    <source src="WhatsApp Video 2025-05-25 at 19.29.38_b8ff1590.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- المحتوى -->
+  <div class="content">
+    <!-- وصف مختصر -->
+    <h3>Dashboaed</h3>
+
+    <!-- برجراف عن الفيديو -->
+    <p  >
+      A dashboard made with HTML and CSS 
+     
+    </p>
+  </div>
+</div>
+
+
+
+<div class="video-card"  >
+  <!-- الفيديو -->
+  <video controls poster="WhatsApp Image 2025-05-25 at 16.36.20_c0f7d912.jpg">
+    <source src="WhatsApp Video 2025-05-25 at 19.30.04_dd6a7cc8.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- المحتوى -->
+  <div class="content">
+    <!-- وصف مختصر -->
+    <h3>desktop application</h3>
+
+    <!-- برجراف عن الفيديو -->
+    <p  >
+      A desktop application using pure JavaScript 
+     
+    </p>
+  </div>
+</div>
+
+
+
+
+
+</div>
+
+
+</section>
+<!-- end section3  -->
+
+
+
+
+<!-- start section4  -->
+
+<section class="cards Contact" id="Contact">
+<h3 class="title">let's work together </h3>
+
 <div class="content">
 
-    <div class="project_card">
-        <div class="project_video">
-            <video id="videoPlayer"  controls>
-    <source src="" type="video/mp4">
-    
-  </video>
-        </div>
-    </div>
+
+<div class="card" id="football" >
+    <div class="icon"> 
+      <i class="fa-solid fa-phone-volume"></i>
+         </div>
+         <div class="info">
+            <h3> phone</h3>
+            <p>01559119095</p>
+             
+         </div>
+
+</div>
+
+
+
+<div class="card" id="football" >
+    <div class="icon"> 
+      <i class="fa-solid fa-at"></i>
+         </div>
+         <div class="info">
+            <h3>Email</h3>
+            <p>abdomokther75@gmail.com </p>
+             
+         </div>
+
 </div>
 
 
@@ -158,8 +266,33 @@
 
 
 
+
+</div>
+
+
 </section>
-<!-- end section3  -->
+
+
+ <!-- end section4  -->
+
+<footer class="footer">
+
+<p> Copyright @<span>Abdulrhman Mukthar</span></p>
+<div class="icons">
+
+    <a href="#" ><i class="fa-brands fa-square-facebook fa-beat-fade " style="color:white ;" ></i></a>
+    <a href="#"><i class="fa-brands fa-square-github fa-bounce"  style="color:black ;"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram fa-spin-pulse"  style="color:rgb(240, 10, 105) ;"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin fa-flip"  style="color:rgb(5, 104, 203) ;"></i></a>
+    
+
+</div>
+
+
+
+</footer>
+
+
 
  <script src="portfoilo.js"></script>
 
