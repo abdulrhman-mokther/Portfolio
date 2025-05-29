@@ -35,6 +35,7 @@
 
 
 
+
       function showmage() {
     document.getElementById("succse").style.display = "none";
     document.getElementById("imagContainer").style.display = "block";
@@ -44,3 +45,12 @@
     document.getElementById("imagContainer").style.display = "none";
     document.getElementById("succse").style.display = "block";
   }
+
+
+
+
+
+
+
+
+
