@@ -1,9 +1,0 @@
-git status معرفه الملفات التي تم التعديل بها
-
-
-git add .  لاضافه جميع الملفات الي ال git
-
-git commit -m "the upload file"  لاضافه تعليق كي يقبل الرفع
-
-
-git push -u origin main لرفع التغيراات علي الجت هااب
